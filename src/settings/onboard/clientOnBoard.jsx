@@ -18,6 +18,7 @@ import { Client } from "../../api";
 import CommonModal from "../../Components/UiKits/Modals/common/modal";
 import HeaderCard from "../../Components/Common/Component/HeaderCard";
 import ClientType from "./components/clientType";
+import ProjectSetup from "./components/projectSetup";
 // import { GetCompanyType } from "../../Services/Company.service";
 
 const ClientOnBoard = () => {
@@ -232,15 +233,15 @@ const ClientOnBoard = () => {
               />
             )}
 
-            {/* {steps === 2 && (
-              <Email
+            {steps === 2 && (
+              <ProjectSetup
                 setSteps={setSteps}
                 setFormdata={setFormdata}
                 formdata={formdata}
               />
             )}
 
-            {steps === 3 && (
+            {/*  {steps === 3 && (
               <Birthdate
                 setSteps={setSteps}
                 setFormdata={setFormdata}

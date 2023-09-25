@@ -1639,3 +1639,4 @@ export const DatatableOrderhistory = "Datatable Order history";
 
 export const CreateEmployee = "Create New Employee";
 export const CreateCompanyType = "Create Company Type";
+export const CreateCompanyProjectType = "Setup Company Projects Layout";
